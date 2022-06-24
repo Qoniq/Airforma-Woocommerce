@@ -1,0 +1,16 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ li[data-id^="billing_"] {
+    display: none;
+}
+
+strong.strong2 {
+   color: rgb(233, 231, 231)!important;
+}
+
+.hiddenCustomFied {
+   display: none !important;
+}

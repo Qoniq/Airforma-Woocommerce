@@ -1,0 +1,185 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ /**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /** div col **/
+.flexDiv100 {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100%;
+}
+
+ .flexDiv {
+     display: flex;
+     width: 50%;
+     justify-content: space-between!important;
+     align-items: center !important;
+    
+ }
+ .flexDivCenter {
+     display: flex;
+     width: 50%;
+     justify-content: center!important;
+     align-items: center !important;
+    
+ }
+
+ .flexDiv p.submit {
+     margin-top: 10px  !important;
+     padding-top: 15px !important;
+
+ }
+
+ .containerCustomF {
+     display: flex;
+     flex-direction: column;
+
+ }
+ .containerCustomF30 {
+     display: flex;
+     flex-direction: column;
+        width: 30%;
+ }
+ .containerCustomF50 {
+     display: flex;
+     flex-direction: column;
+        width: 50%;
+ }
+ .containerCustomF50 form.tokurl {
+     display: flex;
+     flex-direction: column;
+    width: 80%;
+ }
+ .containerCustomF50 form input:not([type="submit"]) {
+     display: flex;
+     flex-direction: column;
+    width: 80%;
+ }
+
+ .rowCustomF {
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .col-12-customF {
+     width: max-content;
+ }
+
+
+ .small-warn {
+    background-color: rgb(241, 195, 43)!important;
+    color: rgb(248, 248, 248) !important;
+    border: none !important;
+    padding: 2%;
+    margin-left: 5% !important;
+}
+
+ /** button **/
+ .cf-button-cusdelete {
+     background-color: rgb(187, 12, 12)!important;
+     color: seashell !important;
+     border: none !important;
+     margin-left: 5% !important;
+ }
+ .cf-button-cusdelete:hover {
+     background-color: rgb(117, 11, 11)!important;
+     color: seashell !important;
+     border: none !important;
+     margin-left: 10% !important;
+ }
+
+ /** css home **/
+
+.strong2containerOrderCusAdmin {
+    color: rgb(113, 112, 112);
+   
+}
+.containerOrderCusAdmin { 
+    border-bottom: grey solid 1px;
+    border-left: solid grey 1px;
+    border-bottom-left-radius: 25px;
+    padding-left: 5%;
+    background-color: rgb(213, 212, 212);
+}
+/** margin **/
+.cstmMtA {
+    margin-bottom: 1rem !important;
+}
+.cstmMLA {
+    margin-left: 1rem !important;
+}
+.cstmMRA {
+    margin-right: 0.1rem !important;
+}
+.cstmPLA {
+    padding-left: 5%;
+}
+
+
+/** aligncenter **/
+.textCstmCF {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/** bg **/
+
+.bgCustmFMain {
+    background-color: rgb(255, 255, 255) !important;
+    padding: 1rem;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ @media only screen and (max-width: 1080px) {
+    .rowCustomF {
+        width: 100%;
+     }
+     .flexDiv {
+        width: 100%;
+       
+    }
+     .flexDivCenter {
+        width: 100%;
+       
+    }
+    .containerCustomF30 {
+        width: 50%;
+    }
+    .containerCustomF50 {
+        width: 80%;
+    }
+  }
+ 
+ @media only screen and (max-width: 800px) {
+    .rowCustomF {
+        width: 100%;
+     }
+     .flexDiv {
+        width: 100%;
+       
+    }
+     .flexDivCenter {
+        width: 100%;
+       
+    }
+    .containerCustomF30 {
+        width: 100%;
+    }
+    .containerCustomF50 {
+        width: 100%;
+    }
+    .cstmMRA {
+        margin-right: 3rem !important;
+    }
+  }
+ 
